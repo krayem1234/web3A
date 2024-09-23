@@ -1,0 +1,74 @@
+/* Style pour la page entière */
+/* Style pour la page entière */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Image de l'auteur */
+.author-details img {
+    max-width: 150px; /* Ajuste la taille de l'image */
+    border-radius: 50%;
+    display: block; /* Centre l'image */
+    margin: 0 auto 20px; /* Marge inférieure pour espacement */
+}
+
+/* Tableau pour les informations de l'auteur */
+.info-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #282c31;
+    color: white;
+}
+
+/* Bouton retour */
+.back-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #282c31;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #343a40;
+    transition: background-color 0.3s;
+}
+
+/* Message de total */
+h2 {
+    text-align: center;
+    color: #555;
+}
